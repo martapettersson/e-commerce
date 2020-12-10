@@ -10,7 +10,7 @@ export default function ProductListPage() {
 	}, []);
 	return (
 		<div className="container">
-			<h2>Product List Page</h2>
+			<h2 className="text-center">Product List Page</h2>
 			{!productList && <p>Loading</p>}
 			<div className="row">
 				{productList &&
